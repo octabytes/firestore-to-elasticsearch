@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/octabytes/firestore-to-elasticsearch#readme",
   "dependencies": {
+    "axios": "^0.21.1",
+    "elasticsearch": "^16.7.2",
     "fireo": "^1.0.3"
   }
 }
