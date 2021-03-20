@@ -1,0 +1,24 @@
+{
+  "name": "firestore-to-elasticsearch",
+  "version": "1.0.0",
+  "description": "Import Firestore data into ElasticSearch",
+  "main": "index.js",
+  "scripts": {
+    "start-firestore": "cd ../hadith-api/firebase && firebase emulators:start --only firestore --import=./cache",
+    "import-quran": "node import-quran",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octabytes/firestore-to-elasticsearch.git"
+  },
+  "author": "OctaByte",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/octabytes/firestore-to-elasticsearch/issues"
+  },
+  "homepage": "https://github.com/octabytes/firestore-to-elasticsearch#readme",
+  "dependencies": {
+    "fireo": "^1.0.3"
+  }
+}
